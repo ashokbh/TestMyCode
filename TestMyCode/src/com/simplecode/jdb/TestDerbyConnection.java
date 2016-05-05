@@ -20,6 +20,7 @@ public class TestDerbyConnection {
             Connection conn2 = DriverManager.getConnection(dbURL2, user, password);
             if (conn2 != null) {
                 System.out.println("Connected to database #2 123");
+                System.out.println("SOme more changes");
             }
 
         } catch (SQLException ex) {
