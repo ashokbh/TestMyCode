@@ -21,6 +21,8 @@ public class TestDerbyConnection {
             if (conn2 != null) {
                 System.out.println("Connected to database #2 123");
                 System.out.println("SOme more changes");
+                System.out.println("SOme more third time changes");
+                
             }
 
         } catch (SQLException ex) {
